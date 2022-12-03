@@ -19,3 +19,14 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+## Database
+
+If it is not finding the database it may not be running.
+
+`service postgresql start`
+
+Access the database with
+
+`sudo su - postgres`
+`psql`
